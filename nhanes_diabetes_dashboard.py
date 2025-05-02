@@ -101,14 +101,18 @@ st.markdown("""
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     }
     .metric-title {
-        font-size: 0.9rem;
+        font-size: 1rem; /* Increased font size */
+        font-weight: 600; /* Added font weight for better readability */
         color: #7F8C8D;
     }
     .metric-value {
-        font-size: 1.8rem;
-        font-weight: bold;
+        font-size: 2rem; /* Increased font size */
+        font-weight: 700; /* Added font weight for emphasis */
         margin: 10px 0;
         color: #2C3E50;
+    }
+    .metric-box div {
+        color: #34495E; /* Changed text color for better readability */
     }
 </style>
 """, unsafe_allow_html=True)
